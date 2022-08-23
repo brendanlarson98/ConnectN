@@ -31,7 +31,7 @@ public:
 private:
     char m_token;
     int inf = 2000000;
-    int max_depth = 4; // maximum recursion depth of the smart player
+    int max_depth = 6; // maximum recursion depth of the smart player
 };
 
 class HumanPlayer: public Player{
